@@ -6,13 +6,14 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #DBDBDB;
 }
 
 /* shared css  */
 
 .white_bg {
     background-color: white;
+    border-radius: 10px;
 }
 
 /* specific css */
@@ -40,11 +41,60 @@ h1 {
     width: 60%;
     height: 600px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .inline {
     display: inline-block;
 }
 
+.tiny_font {
+    font-size: 11px;
+}
 
+ul {
+    list-style: none;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
 
+li {
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.label {
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.editorial_label {
+    background-color: #189ef8;
+}
+
+.goals_label {
+    background-color: rgb(165, 58, 252);
+}
+
+.recruiting_label {
+    background-color: rgb(31, 117, 64);
+}
+
+.mobile_label {
+    background-color: rgb(241, 167, 28);
+}
+
+.website_label {
+    background-color: violet;
+}
+.sales_label {
+    background-color: yellowgreen;
+}
