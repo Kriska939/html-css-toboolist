@@ -42,6 +42,8 @@ h1 {
     height: 600px;
     margin: 0 auto;
     margin-bottom: 20px;
+    color: rgb(48, 48, 48);
+    font-family: sans-serif;
 }
 
 .inline {
@@ -57,10 +59,12 @@ ul {
     line-height: 20px;
     margin-left: 40px;
     margin-top: 30px;
+    font-weight: 600;
 }
 
 li {
     margin-bottom: 5px;
+    font-size: 13px;
 }
 
 h3 {
@@ -74,6 +78,39 @@ h3 {
     color: white;
     font-family: sans-serif;
     font-size: 10px;
+}
+
+.special_label {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 15px;
+    margin-left: 40px;
+    border: 1px solid #189ef8;
+}
+
+.special_white_label {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid darkgrey;
+}
+
+.blue_button {
+    background-color: #189ef8;
+}
+
+.white_button {
+    background-color: white;
+    color: darkgrey;
 }
 
 .editorial_label {
@@ -97,4 +134,18 @@ h3 {
 }
 .sales_label {
     background-color: yellowgreen;
+}
+
+.checkmark {
+    color: green;
+}
+
+.crossmark {
+    color: red;
+}
+
+.circle {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px;
 }
